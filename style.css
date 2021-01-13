@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Roboto:wght@400;700&display=swap');
+
+@media (max-width: 960px) {
+
+    /* For a screen < 960px, this CSS will be read */
+    .container {
+        width: 700px;
+    }
+
+    .card-white {
+        background-color: red;
+    }
+}
+
+@media (max-width: 720px) {
+
+    /* For a screen < 720px, this CSS will be read */
+    .container {
+        width: 500px;
+    }
+
+    .card-white {
+        background-color: red;
+    }
+}
+
+@media (max-width: 540px) {
+
+    /* For a screen < 540px, this CSS will be read */
+    .container {
+        width: 300px;
+    }
+
+    .card-white {
+        background-color: red;
+    }
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #d7e3f5;
+    font-size: 18px;
+}
+
+h1 {
+    font-family: 'Montserrat', sans-serif;
+    color: #0d335d;
+    font-size: 32px;
+    font-weight: 900;
+}
+
+h1:hover {
+    color: #360d5d;
+}
+
+h2 {
+    font-family: 'Montserrat', sans-serif;
+    color: #63b977;
+}
+
+p {
+    color: #1a508b;
+    letter-spacing: 1px;
+}
+
+a {
+    text-decoration: none;
+    color: #6B72E1;
+}
+
+a:hover {
+    color: #1e257c;
+}
+
+.img-circle {
+    border-radius: 50%;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.container {
+    width: 700px;
+    margin: 0 auto;
+}
+
+.card-white {
+    margin: 20px 0;
+    padding: 40px;
+    background-color: white;
+    border-radius: 4px;
+}
+
+.list-inline {
+    list-style: none;
+    padding-left: 0px;
+}
+
+.btn-pink {
+    color: white;
+    background-color: #6B72E1;
+    border-radius: 5px;
+    padding: 12px 20px;
+    font-weight: bold;
+}
+
+#intro {
+    margin-bottom: 30px;
+}
+
+.list-inline>li {
+    display: inline-block;
+    padding: 0px 20px;
+
+}
